@@ -22,6 +22,7 @@ Program to implement the prediction of iris species using SGD Classifier.
 Developed by: BUSHRA FATHIMA I
 RegisterNumber: 212225040051
 */
+
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import SGDClassifier
@@ -48,7 +49,6 @@ y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
 
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
-
 ```
 
 ## Output:
