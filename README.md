@@ -7,6 +7,7 @@ To write a program to predict the type of species of the Iris flower using the S
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+
 1.Load the dataset and separate input and output variables.
 
 2.Split the data into training and testing sets.
